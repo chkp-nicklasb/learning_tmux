@@ -16,3 +16,7 @@ tmux ls
 ```
 tmux a -t <session-name>
 ```
+### To attach to a remote server on port 2222
+```
+ssh -l <username> <servername> -p 2222 -t tmux attach-session
+```
